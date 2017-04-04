@@ -21,5 +21,6 @@
 .byebug_history
 
 # Ignore gdal2tiles output
-/data/output/*
+/data/output/
+
 
