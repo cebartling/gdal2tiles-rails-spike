@@ -1,5 +1,5 @@
 class MosaicTileController < ApplicationController
   def create
-    GenerateMosaicTilesJob.perform_later(10)
+    GenerateMosaicTilesJob.perform_later()
   end
 end
