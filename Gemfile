@@ -53,3 +53,4 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'resque', '~> 1.25', '>= 1.25.2'
+gem 'resque-dynamic-queues', '~> 0.8.1'
