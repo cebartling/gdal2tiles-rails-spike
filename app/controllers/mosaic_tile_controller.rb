@@ -1,5 +1,5 @@
 class MosaicTileController < ApplicationController
   def create
-    GenerateMosaicTilesJob.perform_later()
+    GenerateMosaicTilesJob.set(queue: :tile_generation).perform_later()
   end
 end
